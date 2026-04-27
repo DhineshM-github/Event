@@ -433,8 +433,8 @@ const Step6VendorSponsor = ({ formData, setFormData }) => {
                 <table className="w-full">
                   <thead className="sticky top-0 z-10">
                     <tr>
-                      <th className={headerClasses}>Vendor</th>
-                      <th className={headerClasses}>Type</th>
+                      <th className={tableHeaderClasses}>Vendor</th>
+                      <th className={tableHeaderClasses}>Type</th>
                       <th
                         className={`${tableHeaderClasses} text-right w-16`}
                       ></th>
@@ -631,8 +631,8 @@ const Step6VendorSponsor = ({ formData, setFormData }) => {
                 <table className="w-full">
                   <thead className="sticky top-0 z-10">
                     <tr>
-                      <th className={headerClasses}>Sponsor</th>
-                      <th className={headerClasses}>Tier</th>
+                      <th className={tableHeaderClasses}>Sponsor</th>
+                      <th className={tableHeaderClasses}>Tier</th>
                       <th
                         className={`${tableHeaderClasses} text-right w-16`}
                       ></th>
@@ -790,7 +790,7 @@ const Step6VendorSponsor = ({ formData, setFormData }) => {
                 <table className="w-full">
                   <thead className="sticky top-0 z-10">
                     <tr>
-                      <th className={headerClasses}>Guest Info</th>
+                      <th className={tableHeaderClasses}>Guest Info</th>
                       <th
                         className={`${tableHeaderClasses} text-right w-16`}
                       ></th>
