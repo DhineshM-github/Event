@@ -456,12 +456,12 @@ const Step3LayoutStall = ({ formData, setFormData }) => {
                 <table className="w-full">
                   <thead>
                     <tr>
-                      <th className={headerClasses}>Stall Name</th>
-                      <th className={headerClasses}>Size</th>
-                      <th className={headerClasses}>Visibility</th>
-                      <th className={headerClasses}>Type</th>
-                      <th className={headerClasses}>Price (INR)</th>
-                      <th className={headerClasses}>Price (USD)</th>
+                      <th className={tableHeaderClasses}>Stall Name</th>
+                      <th className={tableHeaderClasses}>Size</th>
+                      <th className={tableHeaderClasses}>Visibility</th>
+                      <th className={tableHeaderClasses}>Type</th>
+                      <th className={tableHeaderClasses}>Price (INR)</th>
+                      <th className={tableHeaderClasses}>Price (USD)</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -516,9 +516,9 @@ const Step3LayoutStall = ({ formData, setFormData }) => {
                 <table className="w-full">
                   <thead>
                     <tr>
-                      <th className={headerClasses}>Stall Name</th>
-                      <th className={headerClasses}>Amenity</th>
-                      <th className={headerClasses}>Quantity</th>
+                      <th className={tableHeaderClasses}>Stall Name</th>
+                      <th className={tableHeaderClasses}>Amenity</th>
+                      <th className={tableHeaderClasses}>Quantity</th>
                     </tr>
                   </thead>
                   <tbody>
